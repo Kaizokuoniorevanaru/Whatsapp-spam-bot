@@ -8,7 +8,7 @@ install("tk")
 print('''_________________________________________________________
 Enter your path of Whatsapp for example
 If your WhatsApp is at your desktop ao you write like this
-C:\\User\\Deskyop\\Whatsapp.ink
+C:\\User\\Desktop\\Whatsapp.ink
 ________________________________________________________________ ''')
 
 a = input("Enter your path: ")
