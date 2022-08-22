@@ -44,7 +44,9 @@ def ok():
     time.sleep(numm)
     pyautogui.click(127,127)
     pyautogui.typewrite(user)
+    time.sleep(2)
     pyautogui.click(134,305)
+    time.sleep(2)
     pyautogui.click(880 , 966)
     for i in range(1,times+1):
         pyautogui.typewrite(spam)
