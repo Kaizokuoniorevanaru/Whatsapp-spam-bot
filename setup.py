@@ -10,7 +10,7 @@ if you whatsapp is at you desktop so you write like this
 C:\\Users\\vihaa\\Desktop\\WhatsApp.lnk  ''')
 
 a = input("Enter your path:")
-b = input("enter num:")
+b = input("Enter that how much time you whatsapp take to boot in sec:")
 with open("data/path.txt","w") as file:
     file.write(a)
     file.write("\n")
